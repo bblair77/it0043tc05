@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.up{
+    background-image: url(bgcard.jpg);
+}
+
+.down{
+
+    background-color: lightcoral;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    width:20%;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 2%;
+}
+
+img{
+    height: 200px;
+    margin-top: 10%;
+}
+
+.typeelectric {
+    background-color: yellow;
+    display: inline;
+    padding: 2px 50px;
+    border-radius: 10px;
+
+
+}
+.type {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    display: inline;
+}
+
+.name{
+    color: white;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+
+.buttons .add{
+    background-color: pink;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.buttons .add:hover{
+    opacity: 0.7;
+}
+.buttons .release{
+    background-color: yellowgreen;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.buttons .release:hover{
+    opacity: 0.7;
+}
+.buttons{
+    padding: 0 0 20px 0;
+}
+
+.descrip{
+    padding: 20px 0 20px 0;
+    color: white;
+}
