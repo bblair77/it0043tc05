@@ -1,0 +1,142 @@
+.flex-container {
+    display: flex;
+    border: 3px solid red;
+    row-gap: 20px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 90px;
+}
+
+img {
+    width: 100%;
+
+}
+
+.pcball{
+    display: none;
+}
+
+.name{
+    display:none;
+}
+
+.body {
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.box {
+
+    width: 250px;
+    flex-grow: 1;
+    border: 2px solid darkred;
+
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+
+}
+
+#box1 {
+    background-color: pink;
+}
+
+#box2 {
+    background-color: lightgreen;
+}
+
+#box3 {
+    background-color: lightsalmon;
+}
+
+#box4 {
+    background-color: lightskyblue;
+}
+
+#box5 {
+    background-color: lightseagreen;
+}
+
+#box6 {
+    background-color: lightgray;
+}
+
+#box7 {
+    background-color: lightpink;
+}
+
+#box8 {
+    background-color: lightgreen;
+}
+
+#box9 {
+    background-color: lightsalmon;
+}
+
+#box10 {
+    background-color: lightskyblue;
+}
+
+#box11 {
+    background-color: lightseagreen;
+}
+
+#box12 {
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 996px) {
+    .container{
+        width: 100%;
+        margin: 2rem auto;
+        display:flex;
+        gap: 10px;
+        flex-flow: column;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+    img{
+        max-width: 20%;
+        overflow: hidden;
+    }
+    
+    .box{
+        display: flex;
+        width: 90;
+        height: auto;
+        margin: 5px;
+        align-items: center;
+        image-orientation: inherit;
+        content: inherit;
+        box-shadow: 5px 5px 3px black;
+        justify-content: space-between;
+        
+    }
+    
+     .box:hover{ 
+        background-image: url(bg.png) ;
+        height:auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .pcball{
+        display: block;
+        width: 16%;
+    }
+
+    .name{
+        display: block;
+        font-size: 200%;
+        font-weight: bold;
+        color: aliceblue;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+}
