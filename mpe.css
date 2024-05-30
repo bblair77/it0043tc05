@@ -1,10 +1,18 @@
+*{
+
+    transition: all .3s ease-in-out;
+    
+}
+
 .flex-container {
     display: flex;
     border: 10px solid black; 
     gap: 20px 50px; 
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 50px 50px 50px;
+    /* padding: 50px 50px 50px; */
+    padding:15px;
+    margin:50px auto;
 }
 
 img {
@@ -31,7 +39,7 @@ img {
 }
 
 .box {
-    width: 200px;
+    width: 300px;
     flex-grow: 1;
     border: 2px solid greenyellow;
     padding: 20px;
@@ -39,7 +47,7 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-evenly; 
 }
 
 #box1 { background-color: pink; }
@@ -113,11 +121,11 @@ img {
         margin:5px 0;
         flex-grow: 1;
         flex-direction: column; 
-        box-shadow: 10px 10px 3px black;
+        /* box-shadow: 10px 10px 3px black;
         align-items: center;
         justify-content: space-between;
         border: 3px solid greenyellow;
-        box-sizing: border-box;
+        box-sizing: border-box; */
     }
 
     .box:hover {
