@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.smurf-container{
+    width: 85vw;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.item{
+    border: 5px solid #2F4F4F;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    gap: 20px;
+}
+
+.name{
+    font-size: 2.5rem;
+    font-weight:600;
+}
+
+#smurfette .details, #jokey .details, #papasmurf .details, #grouchy .details, #brainy .details{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.race{
+    font-size: 1.4rem;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.desc{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.details{
+    text-align: center;
+    display: flex;
+}
+
+/* #clums, #grouch{
+    width: 133px;
+} */
+
+img{
+    width: 150px;
+}
+
+#smurfette{
+    background-color: #FAA559;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#jokey{
+    background-color: darkcyan;
+
+}
+
+#papasmurf{
+    background-color: darkgoldenrod;
+
+}
+
+#grouchy{
+    background-color: darkkhaki;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+#brainy{
+    background-color: darkolivegreen;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+@media (max-width:995px){
+    .smurf-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #smurfette{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #jokey{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #papasmurf{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #grouchy{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #brainy{
+        grid-column: 1/3;
+        grid-row: 3/4;
+
+    }
+    #brainy .details{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        flex-direction: column;
+        flex-direction:row;
+}
+}
+
+@media (max-width:750px){
+    .smurf-container{
+        grid-template-columns:1fr;
+    }
+
+    #smurfette{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #jokey{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #papasmurf{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #grouchy{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #brainy{
+        grid-column: 1/2;
+        grid-row: 5/6;
+
+    }
+    #smurfette .details, #jokey .details, #papasmurf .details, #grouchy .details, #brainy .details{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        flex-direction: column;
+        flex-direction:row;
+    }
+}
