@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "Poppins", sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-color: lightcoral; 
+    background-color: rgb(237, 255, 222);
     color: black;
 }
 
@@ -26,7 +26,7 @@ body {
     top: 0;
     left: 0;
     padding: 2rem 12%;
-    background-color: rgba(240, 128, 128, 0.3);
+    background-color: rgba(255, 183, 224, 0.432);
     backdrop-filter: blur(10px);
     justify-content: space-between;
     align-items: center;
@@ -40,8 +40,8 @@ body {
 }
 
 .logo {
-    font-size: 5rem;
-    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    color: rgb(255, 0, 140);
     font-weight: 800;
     cursor: pointer;
     transition: 0.3s ease;
@@ -53,8 +53,8 @@ body {
 }
 
 .navbar a {
-    font-size: 1.9rem;
-    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    color: darkmagenta;
     margin-left: 4rem;
     font-weight: bold;
     border-bottom: 3px solid transparent;
@@ -71,7 +71,7 @@ body {
 }
 
 span {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 140);
 }
 
 /* Home */
@@ -108,39 +108,40 @@ section {
 }
 
 .home-content p {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     font-weight: 500;
     line-height: 1.8;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .home-img img {
     width: 32vw;
     height: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px white;
+    box-shadow: 0 0 70px rgb(255, 0, 140);
     transition: 0.4s ease-in-out;
 }
 
-.home-img img:hover {
-    box-shadow: 0 0 100px white;
-}
+/* .home-img img:hover {
+    box-shadow: 0 0 100px rgb(255, 0, 140);
+} */
 
 .social-icons a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 4rem;
     padding: 1rem;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(153, 27, 111);
     border-radius: 50%;
-    color: white;
+    color: rgb(255, 0, 140);
     margin: 3rem 1rem;
     transition: 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: palevioletred;
+    color: rgb(214, 9, 77);
     background-color: white;
     transform: scale(1.2) translateY(-5px);
     box-shadow: 0 0 25px white;
@@ -152,10 +153,10 @@ section {
 }
 
 .btn {
-    color: palevioletred;
+    color: black;
     display: inline-block;
     padding: 1rem 3rem;
-    background-color: white;
+    background-color: rgb(247, 108, 228);
     box-shadow: 0 0 25px white;
     border-radius: 3rem;
     font-size: 1.8rem;
@@ -175,7 +176,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    background-color: rgb(247, 159, 159); 
+    background-color: rgb(255, 223, 248); 
 }
 
 .about-img img {
@@ -187,28 +188,34 @@ section {
 }
 
 .about-img img:hover {
-    box-shadow: 0 0 100px white;
+    box-shadow: 0 0 100px rgb(255, 0, 119);
 }
 
 .about-content h2 {
     font-size: 7rem;
     text-align: left;
+    font-style: oblique;
 }
 
 .about-content p {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    line-height: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
 }
 
 .about-content .btn {
     margin-top: 20px;
     width: 15rem;
+    background-color: rgb(252, 45, 131);
+    color: white;
 }
 
 /* Portfolio */
 
 #portfolio {
     padding: 50px;
-    background-color: lightcoral;
+    background-color: rgb(255, 241, 241);
     text-align: center;
 }
 
@@ -217,6 +224,8 @@ section {
     color: #000000;
     font-size: 7rem;
     margin: 5rem 0;
+    font-family:;
+    font-style: oblique;
 }
 
 .portfolio-container {
@@ -258,12 +267,13 @@ section {
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 1000;
-    color: black;
+    color: white;
 }
 
 .card-content p {
     color: black;
     font-size: 13px;
+    font-weight: 600;
 }
 
 /* Services */
@@ -275,7 +285,7 @@ section {
 }
 
 .services {
-    background-color: lightcoral;
+    background-color: rgb(237, 255, 222);
     color: black;
 }
 
@@ -329,22 +339,24 @@ section {
     font-size: 2.3rem;
     margin: 2rem 0;
     font-weight: 800;
+    font-style: oblique;
 }
 
 .services-info p {
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.6rem;
+    font-weight: 500;
     line-height: 1.7;
 }
 
 /* Contact */
 .contact {
-    background-color: rgb(247, 159, 159);
+    background-color: rgb(255, 222, 222);
 }
 
 .contact h2 {
     margin-bottom: 3rem;
     color: black;
+    font-style: oblique;
 }
 
 .contact form {
@@ -381,7 +393,7 @@ section {
 
 /* Footer */
 .footer {
-    background-color: lightcoral;
+    background-color: white;
     padding: 20px 0;
 }
 
@@ -400,14 +412,14 @@ section {
 }
 
 .footer ul li a {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 157);
     border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
     font-weight: bold;
 }
 
 .footer ul li a:hover {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgb(88, 83, 83);
 }
 
 .footer .cr {
