@@ -40,7 +40,7 @@ body {
 }
 
 .logo {
-    font-size: 4rem;
+    font-size: 5rem;
     color: rgb(255, 255, 255);
     font-weight: 800;
     cursor: pointer;
@@ -494,6 +494,6 @@ section {
     }
 
     .services-container {
-        grid-template-columns: 1fr; /* 1 column layout for small screens */
+        grid-template-columns: 1fr; 
     }
 }
