@@ -53,7 +53,7 @@ body {
 }
 
 .navbar a {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     color: rgb(255, 255, 255);
     margin-left: 4rem;
     font-weight: bold;
@@ -256,14 +256,14 @@ section {
 .card-content h3 {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 1000;
     color: black;
 }
 
 .card-content p {
     color: black;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 /* Services */
@@ -494,6 +494,6 @@ section {
     }
 
     .services-container {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr; /* 1 column layout for small screens */
     }
 }
